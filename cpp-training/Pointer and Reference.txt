@@ -1,0 +1,21 @@
+POINTER AND REFERENCE
+int *a; // Deklarasi Pointer (variable isinya address)
+int &b; // Deklarasi Reference (alias untuk variable lain)
+
+
+a = &b; // Address Operator
+cout << *a << endl; // Dereferencing Operator
+
+a = new int; // Alokasi Address
+delete a; // Dealokasi Address
+
+
+STRUCT
+struct student {
+	string name;
+	int age;	
+};
+
+student *albert;
+
+(*albert).name ATAU albert->name
